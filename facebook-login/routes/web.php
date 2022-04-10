@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\AuthFacebookController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +24,9 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+//AuthFacebookController::routes();
+
+Route::get('/redirect', [App\Http\Controllers\AuthFacebookController::class, 'redirect']); //Route Facebook
+Route::get('/callback', [App\Http\Controllers\AuthFacebookController::class, 'callback']); //Route Facebook
