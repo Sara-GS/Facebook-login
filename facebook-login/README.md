@@ -1,6 +1,7 @@
 # Facebook OAUTH login
 
 Ejercicio donde se nos pide desde el backend crear un sistema de autenticación de usuarios a través de la red social Facebook.
+En la Welcome page del proyecto, he añadido enlace al repositorio de github y a la página de Nuwe de donde se ha sacado este reto.
 
 ## Requisitos del proyecto
 
@@ -32,7 +33,10 @@ php artisan ui bootstrap --auth
 
 ##### Propiedad
 
-Proyecto creado por Sara González Sánchez
+Proyecto creado por Sara González Sánchez  
+
+
+
 
 
 
