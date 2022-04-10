@@ -23,7 +23,11 @@ Los objetivos y tareas que hay que cumplir se pueden observar en la sección Use
 
 ✅ Task 5 → Crear una middleware de protección de rutas que no te deje pasar si no has iniciado sesión.
 
-#### Instalacion
+#### Stack
+
+Proyecto creado con PHP, Laravel 9.
+
+##### Instalacion
 
 npm install
 npm run dev
@@ -31,7 +35,7 @@ composer install
 composer require laravel/ui
 php artisan ui bootstrap --auth
 
-##### Propiedad
+###### Propiedad
 
 Proyecto creado por Sara González Sánchez  
 
