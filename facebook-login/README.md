@@ -9,6 +9,8 @@ Los social login son una opción cada vez más popular y es importante saber imp
 
 Para ayudar a mejorar la interacción con los usuarios este proyecto se basa en crear un pequeño server configurado para crear usuarios y permitir hacer login utilizando el social login de Facebook.
 
+![Captura de pantalla de mailtrap con la verificación](resources/css/assets/Facebook-login.png)
+
 Los objetivos y tareas que hay que cumplir se pueden observar en la sección User Stories / Objetivos.
 
 ### Objetivos (User Stories)
